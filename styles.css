@@ -10069,6 +10069,367 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* AI-generated section */
+/* =============================================
+   AquaDrive Countdown Section
+   ============================================= */
+
+.aqd-countdown-section {
+  background-color: #314854;
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(108, 143, 163, 0.18) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(123, 147, 175, 0.12) 0%, transparent 55%);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative orbs */
+.aqd-bg-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.aqd-bg-orb--1 {
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(108, 143, 163, 0.15) 0%, transparent 70%);
+  top: -100px;
+  left: -100px;
+}
+
+.aqd-bg-orb--2 {
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(123, 147, 175, 0.12) 0%, transparent 70%);
+  bottom: -80px;
+  right: -60px;
+}
+
+/* Container */
+.aqd-countdown-container {
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Promo Badge */
+.aqd-promo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(108, 143, 163, 0.25);
+  border: 1px solid rgba(108, 143, 163, 0.5);
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: #a8c8dc;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+.aqd-badge-icon {
+  font-size: 1rem;
+}
+
+/* Headline */
+.aqd-countdown-headline {
+  color: #ffffff;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+/* Subtext */
+.aqd-countdown-subtext {
+  color: #b8cdd8;
+  font-size: clamp(1rem, 2.5vw, 1.15rem);
+  margin: 0 0 52px 0;
+  line-height: 1.6;
+}
+
+.aqd-countdown-subtext strong {
+  color: #7dd3f5;
+  font-weight: 700;
+}
+
+/* Countdown Display */
+.aqd-countdown-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 52px;
+  flex-wrap: wrap;
+}
+
+/* Time Card */
+.aqd-time-card {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(108, 143, 163, 0.35);
+  border-radius: 20px;
+  padding: 32px 44px;
+  min-width: 160px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    0 2px 8px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.aqd-time-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 14px 40px rgba(0, 0, 0, 0.3),
+    0 4px 12px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Time Number */
+.aqd-time-number {
+  font-size: clamp(3.5rem, 8vw, 5.5rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  background: var(--gradient-primary, linear-gradient(180deg, #7B93AF 0%, #6D88A7 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: brightness(1.6) saturate(1.2);
+  margin-bottom: 10px;
+  transition: transform 0.15s ease;
+}
+
+.aqd-time-number.aqd-flip {
+  transform: scale(1.08);
+}
+
+/* Time Label */
+.aqd-time-label {
+  color: #8aaec2;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+/* Separator */
+.aqd-separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.aqd-sep-dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: rgba(108, 143, 163, 0.6);
+  border-radius: 50%;
+  animation: aqdPulse 1.2s ease-in-out infinite;
+}
+
+.aqd-sep-dot:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+@keyframes aqdPulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.3); }
+}
+
+/* Expired Message */
+.aqd-expired-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #a8c8dc;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding: 24px 40px;
+  background: rgba(108, 143, 163, 0.15);
+  border: 1px solid rgba(108, 143, 163, 0.3);
+  border-radius: 16px;
+}
+
+.aqd-expired-message[hidden] {
+  display: none;
+}
+
+.aqd-expired-icon {
+  font-size: 1.6rem;
+  color: #7dd3f5;
+}
+
+/* CTA Wrapper */
+.aqd-cta-wrapper {
+  margin-bottom: 36px;
+}
+
+/* CTA Button */
+.aqd-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--gradient-primary, linear-gradient(180deg, #7B93AF 0%, #6D88A7 100%));
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 18px 44px;
+  border-radius: 60px;
+  border: none;
+  cursor: pointer;
+  box-shadow:
+    0 6px 24px rgba(108, 143, 163, 0.45),
+    0 2px 8px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    filter 0.22s ease;
+  letter-spacing: 0.01em;
+  position: relative;
+  overflow: hidden;
+}
+
+.aqd-cta-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.12) 0%, transparent 100%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.aqd-cta-btn:hover,
+.aqd-cta-btn:focus-visible {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow:
+    0 12px 36px rgba(108, 143, 163, 0.55),
+    0 4px 12px rgba(0, 0, 0, 0.25);
+  filter: brightness(1.08);
+  outline: none;
+}
+
+.aqd-cta-btn:focus-visible {
+  outline: 3px solid #7dd3f5;
+  outline-offset: 3px;
+}
+
+.aqd-cta-btn:active {
+  transform: translateY(-1px) scale(1);
+}
+
+.aqd-cta-text {
+  position: relative;
+  z-index: 1;
+}
+
+.aqd-cta-arrow {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.aqd-cta-btn:hover .aqd-cta-arrow {
+  transform: translateX(-5px);
+}
+
+/* Trust Line */
+.aqd-trust-line {
+  color: #6e93a8;
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.aqd-trust-icon {
+  color: #7dd3f5;
+  font-weight: 700;
+}
+
+/* =============================================
+   Responsive
+   ============================================= */
+
+@media (max-width: 600px) {
+  .aqd-countdown-section {
+    padding: 60px 16px;
+  }
+
+  .aqd-countdown-display {
+    gap: 0;
+    margin-bottom: 40px;
+  }
+
+  .aqd-time-card {
+    padding: 24px 28px;
+    min-width: 120px;
+    border-radius: 16px;
+  }
+
+  .aqd-time-number {
+    font-size: 3.2rem;
+  }
+
+  .aqd-separator {
+    padding: 0 12px;
+    margin-bottom: 16px;
+  }
+
+  .aqd-sep-dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .aqd-cta-btn {
+    font-size: 1rem;
+    padding: 16px 32px;
+  }
+
+  .aqd-trust-line {
+    font-size: 0.78rem;
+  }
+
+  .aqd-countdown-subtext {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 380px) {
+  .aqd-time-card {
+    padding: 20px 20px;
+    min-width: 100px;
+  }
+
+  .aqd-time-number {
+    font-size: 2.8rem;
+  }
+
+  .aqd-separator {
+    padding: 0 8px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
