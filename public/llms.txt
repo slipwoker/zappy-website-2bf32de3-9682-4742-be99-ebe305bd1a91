@@ -1,51 +1,65 @@
-# Business — Generative Engine Optimization Map
+# AquaDrive — Generative Engine Optimization Map
+
+> A car exterior wash service offering affordable and quick cleaning for vehicles. The business is running a special Passover promotion with 25% discount, priced at 25 units. The website should include a customer registration table (admin panel), star-rated testimonials controlled by the owner, a contact form, and clear messaging that the service covers exterior washing only. The overall vibe is clean, professional, and promotional.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://aquadrive.zappy5.app
 AquaDrive מביאה לכם שטיפת רכב חיצונית מקצועית במחיר של 25 שקל בלבד! מהירה, אמינה ומשתלמת — הרכב שלכם יזהר כמו חדש. הזמינו עכשיו ותהנו מהמחיר הטוב ביותר בשוק.
 
 ### שטיפה חיצונית ומבצעים
-https://example.com/exterior-wash-promo
+https://aquadrive.zappy5.app/exterior-wash-promo
 אל תפספסו את מבצע פסח הבלעדי של AquaDrive! שטיפת רכב חיצונית מקצועית ב־25 שקל עם 25% הנחה לחג. נקיון מושלם לרכב שלכם לפני החג — מהיר, משתלם ואיכותי. הזמינו היום!
 
 ### ביקורות ודירוגים
-https://example.com/reviews
+https://aquadrive.zappy5.app/reviews
 גלו מה אומרים לקוחות AquaDrive על שירות שטיפת הרכב החיצונית שלנו! דירוגי כוכבים אמיתיים, חוויות אמיתיות ותוצאות מרהיבות. קראו את הביקורות והחליטו בעצמכם — האיכות מדברת בעד עצמה.
 
 ### צור קשר
-https://example.com/contact
+https://aquadrive.zappy5.app/contact
 יש לכם שאלה על שטיפת הרכב החיצונית שלנו? רוצים לתאם ביקור או לשמוע על מבצע פסח המיוחד? מלאו את טופס הצור קשר של AquaDrive ונחזור אליכם במהירות — אנחנו כאן בשבילכם!
 
 ### admin
-https://example.com/admin
+https://aquadrive.zappy5.app/admin
 פאנל הניהול של AquaDrive מאפשר מעקב מלא אחר הרשמות לקוחות חדשים, ניטור נתונים בזמן אמת ושליטה מלאה על פעילות האתר. כלי ניהול חכם ויעיל לצוות המקצועי שמאחורי שירות שטיפת הרכב המוביל.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://aquadrive.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://aquadrive.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://aquadrive.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About AquaDrive
+A car exterior wash service offering affordable and quick cleaning for vehicles. The business is running a special Passover promotion with 25% discount, priced at 25 units. The website should include a customer registration table (admin panel), star-rated testimonials controlled by the owner, a contact form, and clear messaging that the service covers exterior washing only. The overall vibe is clean, professional, and promotional.
+
+## Services/Products
+- שטיפת רכב חיצונית
+- מבצע פסח – 25% הנחה
+- מחיר 25 ₪
+
+## Target Audience
+
+## Industry
+שירותי רכב
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://aquadrive.zappy5.app/sitemap.xml
+- **Robots.txt**: https://aquadrive.zappy5.app/robots.txt
