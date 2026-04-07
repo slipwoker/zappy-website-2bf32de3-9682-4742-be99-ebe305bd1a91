@@ -1,6 +1,4 @@
-# AquaDrive — Generative Engine Optimization Map
-
-> A car exterior wash service offering affordable and quick cleaning for vehicles. The business is running a special Passover promotion with 25% discount, priced at 25 units. The website should include a customer registration table (admin panel), star-rated testimonials controlled by the owner, a contact form, and clear messaging that the service covers exterior washing only. The overall vibe is clean, professional, and promotional.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -44,19 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About AquaDrive
-A car exterior wash service offering affordable and quick cleaning for vehicles. The business is running a special Passover promotion with 25% discount, priced at 25 units. The website should include a customer registration table (admin panel), star-rated testimonials controlled by the owner, a contact form, and clear messaging that the service covers exterior washing only. The overall vibe is clean, professional, and promotional.
-
-## Services/Products
-- שטיפת רכב חיצונית
-- מבצע פסח – 25% הנחה
-- מחיר 25 ₪
-
-## Target Audience
-
-## Industry
-שירותי רכב
-
+## About Business
 ---
 
 # Additional Resources
